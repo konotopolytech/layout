@@ -1,3 +1,8 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 .rozha-one {
   font-family: 'Rozha One', serif;
 }
@@ -11,11 +16,15 @@
 }
 
 .blue {
-  color: #5ea8ef;
+  color: #337ab7;
 }
- 
+
 .grey {
   color: #8a8484;
+}
+
+.light-grey {
+  color: #c4c4c4;
 }
 
 .dark-grey {
@@ -30,25 +39,22 @@
   font-size: 1rem;
 }
 
+section {
+  margin-bottom: 3rem;
+}
+
 .underlined-link {
   border-bottom: solid thin #337ab7;  
   padding-bottom: 1rem;
 }
 
-section {
-  margin-bottom: 3rem;
-}
-
 /*//////////NAVBAR LOGO//////////*/
-.navbar-default .navbar-brand {
-    color: #777;
-    padding-top: 1rem;
-}
-
-.navbar-brand img {
+.navbar-brand>img {
+    display: block;
     height: 3rem;
+    margin-top: -0.6rem;
 }
-/*//////////NAVBAR LOGO END//////////*/
+/*//////////NAVBAR LOGO END//////*/
 
 /*//////////HEADER//////////*/
 header {
@@ -57,22 +63,20 @@ header {
   background-position: 50% 50%;
   background-size: cover;
   margin-top: 5rem;
-  margin-bottom: 1rem;
 }
 
 #headers-wrapper {
-  margin-top: 17.5rem;
+  margin-top: 19rem;
 }
 
 header h1 {
   color: #fff;
   text-align: center;
-  font-size: 5rem;
 }
 
 header h2 {
-  margin-top: -14rem;
-  margin-left: 2.3rem;
+  margin-top: -6.9rem;
+  font-size: 1rem;  
 }
 /*//////////HEADER END//////////*/
 
@@ -93,26 +97,74 @@ header h2 {
 }
 /*//////////QUOTE END//////////*/
 
-/*//////////ARTICLE FIRST//////////*/
-.article-pic img {
+/*//////////ARTICLE//////////*/
+
+#first-article img {
   width: 100%;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
-.article .text-wrapper {
-  padding: 0 5rem;
-  margin-bottom: 2rem;
+#first-article p {
+font-size: 1.2rem;
+padding: 0 2rem;
+}
+
+.lite-grey {
+  color: #AEADAD 
 }
 
 .article a {
-  margin: 0 auto;
-  display: block;
-  width: 9.8rem;
+  text-align: center;
+  font-size: 1.0rem;
 }
-/*//////////ARTICLE FIRST END//////////*/
+/*//////////ARTICLE END//////////*/
 
-/*//////////ARTICLE VIDEO//////////*/
+/*//////////VIDEO//////////*/
 #video iframe {
   width: 100%;
 }
-/*//////////ARTICLE VIDEO END//////////*/
+/*//////////VIDEO END//////////*/
+
+/*//////////SHOP//////////*/
+#shop h2:nth-child(1) {
+    margin-top: 0;
+}
+
+#shop h2:nth-child(2) {
+  font-size: 2rem;
+}
+
+p.cost {
+  font-size: 2rem;
+  color: #e8adfb;
+  margin-bottom: 0;
+}
+
+#product-img::after {
+  content: " ";
+  width: 20rem;
+  height: 30rem;
+  background-color: #cdcdcd;
+  margin: -27rem auto 0;
+  display: block;
+}
+/*//////////SHOP END//////////*/
+
+/*//////////JOIN//////////*/
+#join button {
+    border: none;
+    background-color: #5ea8ef;
+    color: #fff;
+    width: 3rem;
+    height: 3rem;
+    margin-left: -0.5rem;
+}
+
+#join input {
+    border: none;
+    background-color: #ececec;
+    height: 3rem;
+    width: 88%;
+}
+/*//////////JOIN END//////////*/
+
