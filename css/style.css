@@ -99,7 +99,8 @@ header h2 {
 
 /*//////////ARTICLE//////////*/
 
-#first-article img {
+#first-article img, 
+#second-article img {
   width: 100%;
   margin-bottom: 1.5rem;
 }
@@ -150,6 +151,21 @@ p.cost {
 }
 /*//////////SHOP END//////////*/
 
+/*//////////THIRD ARTICLE//////////*/
+#third-article .wrapper {
+  display: block;
+  height: 65%;
+  width: 65%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+#third-article .wrapper img {
+  height: 17rem;
+  margin-left: -3rem;
+}
+/*//////////THIRD ARTICLE END//////////*/
+
 /*//////////JOIN//////////*/
 #join button {
     border: none;
@@ -167,4 +183,21 @@ p.cost {
     width: 88%;
 }
 /*//////////JOIN END//////////*/
+
+/*//////////CONTACTS//////////*/
+#contacts img {
+  width: 100%;
+}
+
+#contacts .wrapper {
+  display: block;
+  width: 80%;
+  margin: 1.5rem auto;
+}
+
+#contacts .wrapper p {
+  font-size: 2rem;
+  text-align: left;
+}
+/*//////////CONTACTS END//////////*/
 
